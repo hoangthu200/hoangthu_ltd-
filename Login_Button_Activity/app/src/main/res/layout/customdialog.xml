@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐĂNG KÝ"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+            android:id="@+id/edttk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mật khẩu"
+        android:autofillHints="" />
+        <EditText
+            android:id="@+id/edtmk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên người dùng" />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/buttondongy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đồng Ý" />
+
+    <Button
+        android:id="@+id/buttonhuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Huỷ"/>
+</LinearLayout>
+
+</LinearLayout>
