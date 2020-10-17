@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#C8FAEA65"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/avata" />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#00BCD4"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:hint="User Name"
+            android:padding="5dp"
+            android:textColor="#0B0B0B"
+            android:textColorHint="#121111"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#00BCD4"
+            android:drawableLeft="@android:drawable/ic_secure"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="@color/colorInput"
+            android:textColorHint="#F8100F0F"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="LOGIN"
+            android:textColor="@color/colorInput"
+            android:textSize="30sp"
+            android:id="@+id/buttonlogin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Register Here"
+            android:textColor="#F5121111"
+            android:textColorHint="#121111"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
