@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Foody"
+                android:background="#8BC34A"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="8.8">
+
+                    <ImageView
+                        android:id="@+id/pizza"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1.6"
+                        app:srcCompat="@drawable/pizza" />
+
+                    <ImageButton
+                        android:id="@+id/pizza_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="2.6"
+                        android:background="@drawable/radius_btn" />
+
+                    <TextView
+                        android:id="@+id/pizza_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="2"
+                        android:background="#E45122"
+                        android:gravity="center|left"
+                        android:onClick="pizza_btn"
+                        android:text="Pizza"
+                        android:textColor="#FFFF"
+                        android:textSize="25dp"
+                        tools:ignore="OnClick" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/gia_pizza"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:background="#2D97CF"
+                                android:onClick="pizza_btn"
+                                android:text="Giá: 105.000đ"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+
+                            <TextView
+                                android:id="@+id/soluong_pizza"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#BFA7A8A7"
+                                android:onClick="pizza_btn"
+                                android:text="Số lượng: 0"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="8.8">
+
+                    <ImageView
+                        android:id="@+id/ga_ran"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1.6"
+                        app:srcCompat="@drawable/ga_ran" />
+
+                    <ImageButton
+                        android:id="@+id/ga_ran_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="2.6"
+                        android:background="@drawable/radius_btn" />
+
+                    <TextView
+                        android:id="@+id/ga_ran_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="2"
+                        android:background="#E45122"
+                        android:onClick="ga_ran_btn"
+                        android:text="Gà rán"
+                        android:textColor="#FFFF"
+                        android:textSize="30dp"
+                        tools:ignore="OnClick" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/gia_ga_ran"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:background="#2D97CF"
+                                android:onClick="ga_ran_btn"
+                                android:text="Giá: 105.000đ"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+
+                            <TextView
+                                android:id="@+id/soluong_ga_ran"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#BFA7A8A7"
+                                android:onClick="ga_ran_btn"
+                                android:text="Số lượng: 0"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="8.8"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+
+                    <ImageView
+                        android:id="@+id/my_y"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1.6"
+                        app:srcCompat="@drawable/my_y" />
+
+                    <ImageButton
+                        android:id="@+id/my_y_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="2.6"
+                        android:background="@drawable/radius_btn" />
+
+                    <TextView
+                        android:id="@+id/my_y_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="2"
+                        android:background="#E45122"
+                        android:onClick="my_y_btn"
+                        android:text="Mỳ ý"
+                        android:textColor="#FFFF"
+                        android:textSize="30dp"
+                        tools:ignore="OnClick" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/gia_my_y"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:background="#2D97CF"
+                                android:onClick="my_y_btn"
+                                android:text="Giá: 105.000đ"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+
+                            <TextView
+                                android:id="@+id/soluong_my_y"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#BFA7A8A7"
+                                android:onClick="my_y_btn"
+                                android:text="Số lượng: 0"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="8.8">
+
+                    <ImageView
+                        android:id="@+id/sushi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1.6"
+                        app:srcCompat="@drawable/sushi" />
+
+                    <ImageButton
+                        android:id="@+id/sushi_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="2.6"
+                        android:background="@drawable/radius_btn" />
+
+                    <TextView
+                        android:id="@+id/sushi_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="2"
+                        android:background="#E45122"
+                        android:onClick="sushi_btn"
+                        android:text="Sushi"
+                        android:textColor="#FFFF"
+                        android:textSize="30dp"
+                        tools:ignore="OnClick" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/gia_sushi"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:background="#2D97CF"
+                                android:onClick="sushi_btn"
+                                android:text="Giá: 105.000đ"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+
+                            <TextView
+                                android:id="@+id/soluong_sushi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#BFA7A8A7"
+                                android:onClick="sushi_btn"
+                                android:text="Số lượng: 0"
+                                android:textSize="18dp"
+                                tools:ignore="OnClick" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/tong"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Tổng"
+                                android:textSize="30dp"
+                                android:textColor="#fff"
+                                android:background="#F0144CD8"
+                                android:textStyle="bold"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:background="#F0144CD8"
+                                android:textSize="30dp"
+                                android:textColor="#fff"
+
+                                android:textStyle="bold"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.8"
+                            android:text="Huỷ đơn"
+                            android:background="#BCBCBC"
+                            android:textStyle="bold"
+                            android:onClick="huy_btn"
+                            android:textSize="35dp"
+                            tools:ignore="OnClick" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="Thanh toán"
+                            android:textStyle="bold"
+                            android:onClick="thanhtoan_btn"
+                            android:textSize="35dp"
+                            tools:ignore="OnClick" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
