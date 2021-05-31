@@ -7,13 +7,13 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable import/no-unresolved */
-import React from 'react';
-import Header from 'components/Header';
-import Footer from 'components/Footer';
-import Link from 'next/link';
+import React from "react";
+import Header from "components/Header";
+import Footer from "components/Footer";
+import Link from "next/link";
 
 const Item = () => (
-  <div className="flex lg:w-3/4 flex-wrap -m-4">
+  <div className="flex flex-wrap -m-4">
     <Link href="/product/3">
       <div className="lg:w-1/3 md:w-1/2 p-4">
         <div className="bg-gray-100 shadow cursor-pointer overflow-hidden rounded-lg">
@@ -30,7 +30,8 @@ const Item = () => (
               CÂY DÙ HÃNG UV
             </h2>
             <p className="leading-relaxed text-base">
-              Mình có nhặc được 1 cây dụ hiệu UV như hình tại văn phòng đoàn trường
+              Mình có nhặc được 1 cây dụ hiệu UV như hình tại văn phòng đoàn
+              trường
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -38,9 +39,7 @@ const Item = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>15 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -69,9 +68,7 @@ const Item = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>20 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -100,9 +97,7 @@ const Item = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>1 Hour ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -123,7 +118,8 @@ const Item = () => (
               CHÌA KHÓA XE OTO
             </h2>
             <p className="leading-relaxed text-base">
-              Mình có nhặt được 1 chìa khóa xe oto như hình tại tầng 2 trước phòng a206
+              Mình có nhặt được 1 chìa khóa xe oto như hình tại tầng 2 trước
+              phòng a206
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -131,9 +127,7 @@ const Item = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>1 Hour 20 min ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -154,7 +148,8 @@ const Item = () => (
               VÍ DA NAM
             </h2>
             <p className="leading-relaxed text-base">
-              Mình có nhặt được 1 ví da nam như hình tại bàn số 8 bên trái phòng A104
+              Mình có nhặt được 1 ví da nam như hình tại bàn số 8 bên trái phòng
+              A104
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -162,9 +157,7 @@ const Item = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>1 Hour 30 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -173,7 +166,7 @@ const Item = () => (
 );
 
 const ItemDoDienTu = () => (
-  <div className="flex lg:w-3/4 flex-wrap -m-4">
+  <div className="flex flex-wrap -m-4">
     <Link href="/product/1">
       <div className="lg:w-1/3 md:w-1/2 p-4">
         <div className="bg-gray-100 shadow cursor-pointer overflow-hidden rounded-lg">
@@ -190,7 +183,8 @@ const ItemDoDienTu = () => (
               MÁY TÍNH CASIO FX 570
             </h2>
             <p className="leading-relaxed text-base">
-              Tôi có nhặt được 1 cái Máy tính casio fx570 như hình tại phòng A304
+              Tôi có nhặt được 1 cái Máy tính casio fx570 như hình tại phòng
+              A304
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -198,9 +192,7 @@ const ItemDoDienTu = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>5 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -229,9 +221,7 @@ const ItemDoDienTu = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>10 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -252,7 +242,8 @@ const ItemDoDienTu = () => (
               CÂY DÙ HÃNG UV
             </h2>
             <p className="leading-relaxed text-base">
-              Mình có nhặc được 1 cây dụ hiệu UV như hình tại văn phòng đoàn trường
+              Mình có nhặc được 1 cây dụ hiệu UV như hình tại văn phòng đoàn
+              trường
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -260,9 +251,7 @@ const ItemDoDienTu = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>15 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -291,9 +280,7 @@ const ItemDoDienTu = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>20 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -322,9 +309,7 @@ const ItemDoDienTu = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>30 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -353,9 +338,7 @@ const ItemDoDienTu = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>35 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -364,7 +347,7 @@ const ItemDoDienTu = () => (
 );
 
 const ItemGiayTo = () => (
-  <div className="flex lg:w-3/4 flex-wrap -m-4">
+  <div className="flex flex-wrap -m-4">
     <Link href="/product/1">
       <div className="lg:w-1/3 md:w-1/2 p-4">
         <div className="bg-gray-100 shadow cursor-pointer overflow-hidden rounded-lg">
@@ -381,7 +364,8 @@ const ItemGiayTo = () => (
               MÁY TÍNH CASIO FX 570
             </h2>
             <p className="leading-relaxed text-base">
-              Tôi có nhặt được 1 cái Máy tính casio fx570 như hình tại phòng A304
+              Tôi có nhặt được 1 cái Máy tính casio fx570 như hình tại phòng
+              A304
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -389,9 +373,7 @@ const ItemGiayTo = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>5 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -420,9 +402,7 @@ const ItemGiayTo = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>10 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -451,9 +431,7 @@ const ItemGiayTo = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>20 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -474,7 +452,8 @@ const ItemGiayTo = () => (
               ĐIỆN THOẠI IPHONE 12
             </h2>
             <p className="leading-relaxed text-base">
-              mình có lượm được 1 chiếc điện thoại iphone 12 như hình tại phòng A105
+              mình có lượm được 1 chiếc điện thoại iphone 12 như hình tại phòng
+              A105
             </p>
           </div>
           <div className="border-t justify-between p-4 border-gray-600 flex ">
@@ -482,9 +461,7 @@ const ItemGiayTo = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>40 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -493,7 +470,7 @@ const ItemGiayTo = () => (
 );
 
 const ItemDocanhan = () => (
-  <div className="flex lg:w-3/4 flex-wrap -m-4">
+  <div className="flex flex-wrap -m-4">
     <Link href="/product/5">
       <div className="lg:w-1/3 md:w-1/2 p-4">
         <div className="bg-gray-100 shadow cursor-pointer overflow-hidden rounded-lg">
@@ -518,9 +495,7 @@ const ItemDocanhan = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>30 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -549,9 +524,7 @@ const ItemDocanhan = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>35 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -580,9 +553,7 @@ const ItemDocanhan = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>50 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -611,9 +582,7 @@ const ItemDocanhan = () => (
               <div className="w-4 h-4 bg-yellow-300 rounded-full mr-2" />
               <div>55 mins ago</div>
             </div>
-            <div className="text-gray-400 font-bold text-sm">
-              Da Nang
-            </div>
+            <div className="text-gray-400 font-bold text-sm">Da Nang</div>
           </div>
         </div>
       </div>
@@ -637,7 +606,8 @@ const ProductList = () => {
         return <ItemDoDienTu />;
       case 1:
         return <ItemGiayTo />;
-      default: return <Item />;
+      default:
+        return <Item />;
       case 2:
         return <ItemDocanhan />;
     }
@@ -658,7 +628,7 @@ const ProductList = () => {
             </div>
           </div>
           <div className="flex">
-            <div className="lg:w-1/4 pr-2">
+            <div className="lg:w-1/4 md:w-1/2 pr-2">
               <div className="mb-4">
                 <input
                   type="text"
@@ -733,11 +703,7 @@ const ProductList = () => {
                 </ul>
               </div>
             </div>
-            <div>
-              {
-                a(step)
-              }
-            </div>
+            <div className="lg:w-3/4 md:w-1/2 ">{a(step)}</div>
           </div>
         </div>
       </section>
